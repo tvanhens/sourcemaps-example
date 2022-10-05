@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "ts-node src/scratch.ts",
-    "test": "node out.js"
+    "test": "node --enable-source-maps out.js"
   },
   "devDependencies": {
     "@types/node": "^18.8.2",
